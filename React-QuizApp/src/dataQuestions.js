@@ -1,4 +1,4 @@
-const questions =[
+export const questions =[
     {QuestionArea:"How Many days in a Week ?",
     answerOption:[
         {answerText:"3", isCorrect:false},
