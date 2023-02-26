@@ -12,33 +12,61 @@ code {
     monospace;
 }
 
-/* .app{
+.app{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   background: cornflowerblue;
 }
-.question-area{
-  background-color: rgb(33, 33, 69);
-  color: white;
+.app .question-area{
+  width: 600px;
   height: 400px;
-  width: 500px;
+  background: rgb(11, 11, 37);
+  color: white;
   border-radius: 20px;
+  font-size: 20px;
+  box-shadow: 8px 10px 10px 8px rgb(39, 45, 17);
 }
-.question-area span{
+.app .question-area h5{
   margin-left: 10px;
 }
-.question-area h2{
-  margin: 10px;
+.app .question-count h2{
+  margin-left: 10px;
 }
-.question-area button{
-  width: 90px;
-  border-radius: 9px;
+.app .question-text{
+  margin-left: 10px;
+}
+.app .question-area .answer-area{
+  float: right;
+  height: 30px;
+  width: 100px;
+  margin-bottom: 100%;
+  display: grid;
+}
+.answer-area .button{
+ height:30px;
+ width: 90px;
+ display: flex;
+ margin-top: 70px;
+ border-radius: 20%;
+ justify-content: space-between;
+}
+.quizApp{
+  width: 600px;
+  height: 400px;
+  background: rgb(11, 11, 37);
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  box-shadow: 8px 10px 10px 8px rgb(39, 45, 17);
   text-align: center;
-  /* align-items: center;
-  justify-content: space-between; 
+}
+.quizApp button{
+  height: 30px;
+  width: 90px;
+  border-radius: 20px;
 }
 button:hover{
-  background: skyblue;
-} */
+  background-color:green;
+}
